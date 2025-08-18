@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 export interface PropertyProps {
   name: string;
   address: {
@@ -15,4 +16,9 @@ export interface PropertyProps {
   };
   image: string;
   discount: string;
+}
+
+
+export interface LayoutProps {
+  children: ReactNode;
 }
